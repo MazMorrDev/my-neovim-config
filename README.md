@@ -30,15 +30,16 @@ El **mouse funciona**: clic, seleccionar, scroll.
 
 En modo Normal, editas "hablando": **verbo** + **qué**.
 
-| Verbos | | Objetos | |
-|---|---|---|---|
-| `d` | borrar (y copiar) | `w` | hasta la siguiente palabra |
-| `c` | cambiar (borra y entra a Inserción) | `iw` | la palabra entera |
-| `y` | copiar | `i"` `i'` `` i` `` | dentro de comillas |
-| `v` | seleccionar | `i(` `i{` `i[` `i<` | dentro de paréntesis/llaves/corchetes/tags |
-| `>` `<` | indentar / desindentar | `it` | dentro de una etiqueta HTML |
-| | | `ip` | el párrafo/bloque |
-| | | `$` | hasta el final de la línea |
+| Verbos  |                                     | Objetos             |                                            |
+| ------- | ----------------------------------- | ------------------- | ------------------------------------------ |
+| `d`     | borrar (y copiar)                   | `w`                 | hasta la siguiente palabra                 |
+| `c`     | cambiar (borra y entra a Inserción) | `iw`                | la palabra entera                          |
+| `y`     | copiar                              | `i"` `i'` `` i` ``  | dentro de comillas                         |
+| p       | pegar                               |                     |                                            |
+| `v`     | seleccionar                         | `i(` `i{` `i[` `i<` | dentro de paréntesis/llaves/corchetes/tags |
+| `>` `<` | indentar / desindentar              | `it`                | dentro de una etiqueta HTML                |
+|         |                                     | `ip`                | el párrafo/bloque                          |
+|         |                                     | `$`                 | hasta el final de la línea                 |
 
 Cambia `i` por `a` para incluir los delimitadores: `da"` borra el string *con* sus comillas.
 
@@ -61,16 +62,16 @@ Los números multiplican: `3dd` borra 3 líneas, `5j` baja 5 líneas.
 
 ### Moverse
 
-| Tecla | Movimiento |
-|---|---|
-| `h` `j` `k` `l` | ← ↓ ↑ → (las flechas también funcionan) |
-| `w` / `b` | palabra siguiente / anterior |
-| `0` / `$` | inicio / fin de línea |
-| `gg` / `G` | inicio / fin del archivo |
-| `Ctrl+d` / `Ctrl+u` | media pantalla abajo / arriba |
-| `%` | saltar al paréntesis/llave que cierra (o abre) |
-| `/texto` Enter | buscar. `n` siguiente, `N` anterior. `Esc` quita el resaltado |
-| `*` | buscar la palabra bajo el cursor |
+| Tecla               | Movimiento                                                          |
+| ------------------- | ------------------------------------------------------------------- |
+| `h` `j` `k` `l`     | ← ↓ ↑ → (las flechas también funcionan)                             |
+| `w` / `b`           | palabra siguiente / anterior                                        |
+| `0` / `$`           | inicio / fin de línea                                               |
+| `gg` / `G`          | inicio / fin del archivo                                            |
+| `Ctrl+d` / `Ctrl+u` | media pantalla abajo / arriba                                       |
+| `%`                 | saltar al paréntesis/llave que cierra (o abre)                      |
+| `/texto` `Enter`    | buscar. `n` siguiente, `N` anterior. `Esc` quita el resaltado       |
+| `*`                 | buscar la palabra bajo el cursor                                    |
 | `Ctrl+o` / `Ctrl+i` | **volver atrás / adelante** a donde estabas (tras `gd`, búsquedas…) |
 
 ### Selección

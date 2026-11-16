@@ -20,4 +20,5 @@ require("lazy").setup({
   install = { colorscheme = { "tokyonight", "habamax" } },
   checker = { enabled = true, notify = false }, -- revisa actualizaciones en segundo plano
   change_detection = { notify = false },
+  rocks = { enabled = false }, -- ningún plugin usa luarocks; evita el error en :checkhealth
 })
