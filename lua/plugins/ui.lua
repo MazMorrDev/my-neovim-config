@@ -23,26 +23,27 @@ return {
           c.comment = "#8a5a60"
           c.terminal_black = "#3d2024"
 
-          -- Acentos: casi todo en la gama del rojo
-          c.blue = "#ff5c5c" -- funciones
+          -- Acentos: el rojo manda, acompañado de tonos cálidos afines
+          -- (frambuesa, orquídea, naranja, ámbar, dorado, melocotón y rosa)
+          c.red = "#ff4d4d" -- builtins, etiquetas
+          c.red1 = "#d11a2a" -- errores
+          c.blue = "#ff6b6b" -- funciones (rojo)
+          c.purple = "#ff3e7f" -- palabras clave (frambuesa)
+          c.magenta = "#e05fc4" -- sentencias, constructores (orquídea)
+          c.magenta2 = "#ff2e88"
+          c.blue1 = "#ffb454" -- tipos (ámbar)
+          c.cyan = "#ff8f66" -- imports / preprocesador (naranja claro)
+          c.orange = "#ff8c3a" -- constantes y números (naranja)
+          c.yellow = "#ffd479" -- parámetros, avisos (dorado)
+          c.green = "#f7c59f" -- strings (melocotón)
+          c.green1 = "#ff9eb5" -- propiedades (rosa)
+          c.green2 = "#b8475a"
+          c.teal = "#f78fb3" -- pistas (rosa)
+          c.blue2 = "#ffa07a" -- info (salmón)
+          c.blue5 = "#d9a3a3" -- operadores y puntuación (rosa apagado)
+          c.blue6 = "#ffd6c2"
           c.blue0 = "#6b1a24" -- selección / búsqueda
-          c.blue1 = "#ff7b7b"
-          c.blue2 = "#ff9494"
-          c.blue5 = "#ffaaaa"
-          c.blue6 = "#ffc4c4"
           c.blue7 = "#4d1a21"
-          c.cyan = "#ff8585" -- palabras clave secundarias
-          c.magenta = "#e8174a" -- palabras clave
-          c.magenta2 = "#ff1f4b"
-          c.purple = "#d72638"
-          c.red = "#ff3b3b"
-          c.red1 = "#c70d1f"
-          c.orange = "#ff7f50" -- constantes
-          c.yellow = "#ffb07c" -- tipos
-          c.green = "#f59a8a" -- strings
-          c.green1 = "#ff6f6f"
-          c.green2 = "#b8303d"
-          c.teal = "#ff8f8f"
           c.git = { add = "#9ccc7a", change = "#ff9f5a", delete = "#ff3b3b", ignore = c.dark3 }
 
           -- Recalcular los colores derivados (tokyonight los calcula antes de on_colors)
