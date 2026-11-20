@@ -136,6 +136,7 @@ Estos `Ctrl+w` sirven para cualquier ventana dividida, no solo el explorador.
 |---|---|
 | `Espacio Espacio` | buscar archivo por nombre |
 | `Espacio fg` | buscar **texto** en todo el proyecto |
+| `Espacio fs` | buscar **texto** en el archivo actual |
 | `Espacio fr` | archivos recientes |
 | `Espacio fb` | archivos abiertos |
 | `Espacio fd` | todos los errores/avisos |

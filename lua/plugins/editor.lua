@@ -9,6 +9,7 @@ return {
     keys = {
       { "<leader>ff", "<cmd>Telescope find_files<CR>", desc = "Buscar archivos" },
       { "<leader>fg", "<cmd>Telescope live_grep<CR>", desc = "Buscar texto en el proyecto" },
+      { "<leader>fs", "<cmd>Telescope current_buffer_fuzzy_find<CR>", desc = "Buscar texto en este archivo" },
       { "<leader>fb", "<cmd>Telescope buffers<CR>", desc = "Archivos abiertos" },
       { "<leader>fr", "<cmd>Telescope oldfiles<CR>", desc = "Archivos recientes" },
       { "<leader>fh", "<cmd>Telescope help_tags<CR>", desc = "Ayuda de nvim" },
