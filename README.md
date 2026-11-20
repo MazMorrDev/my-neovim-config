@@ -278,7 +278,7 @@ lua/config/options.lua      números, indentación, portapapeles del sistema, un
 lua/config/keymaps.lua      atajos generales
 lua/config/lazy.lua         gestor de plugins lazy.nvim
 lua/plugins/explorer.lua    explorador neo-tree
-lua/plugins/ui.lua          tema tokyonight, barra de estado, pestañas, which-key
+lua/plugins/ui.lua          tema VS Code Dark+, barra de estado, pestañas, which-key
 lua/plugins/editor.lua      telescope, autopairs, detección de indentación
 lua/plugins/git.lua         gitsigns + atajos de git
 lua/plugins/treesitter.lua  resaltado de sintaxis (lista de lenguajes)

@@ -17,7 +17,7 @@ vim.opt.rtp:prepend(lazypath)
 
 require("lazy").setup({
   spec = { { import = "plugins" } },
-  install = { colorscheme = { "tokyonight", "habamax" } },
+  install = { colorscheme = { "vscode", "habamax" } },
   checker = { enabled = true, notify = false }, -- revisa actualizaciones en segundo plano
   change_detection = { notify = false },
   rocks = { enabled = false }, -- ningún plugin usa luarocks; evita el error en :checkhealth
