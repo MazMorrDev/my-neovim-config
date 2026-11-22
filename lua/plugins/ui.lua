@@ -14,8 +14,14 @@ return {
     end,
   },
   {
+    -- Iconos de archivos estilo "Material Icon Theme" de VS Code.
+    -- Es un reemplazo de nvim-web-devicons (expone el mismo módulo "nvim-web-devicons").
+    "DaikyXendo/nvim-material-icon",
+    lazy = true,
+  },
+  {
     "nvim-lualine/lualine.nvim",
-    dependencies = { "nvim-tree/nvim-web-devicons" },
+    dependencies = { "DaikyXendo/nvim-material-icon" },
     opts = {
       options = { theme = "vscode", globalstatus = true },
       extensions = { "neo-tree", "lazy", "mason" },
@@ -26,7 +32,7 @@ return {
     "akinsho/bufferline.nvim",
     version = "*",
     event = "VeryLazy",
-    dependencies = { "nvim-tree/nvim-web-devicons" },
+    dependencies = { "DaikyXendo/nvim-material-icon" },
     keys = {
       { "<S-l>", "<cmd>BufferLineCycleNext<CR>", desc = "Pestaña siguiente" },
       { "<S-h>", "<cmd>BufferLineCyclePrev<CR>", desc = "Pestaña anterior" },
